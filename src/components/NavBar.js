@@ -1,11 +1,12 @@
 import React from 'react';
-import {Icon} from 'semantic-ui-react';
+import {Icon,Divider} from 'semantic-ui-react';
 //icons
 
 const Navbar = () =>(
     <header>
         <nav>
             <div id="menubox"></div>
+            <Divider />
             <div id="nav">
                 <ul>
                     <li><img src="#" alt="The Talks logo"/></li>
@@ -19,6 +20,7 @@ const Navbar = () =>(
                 </ul>
             </div>
         </nav>
+        <Divider horizontal/>
     </header>
 )
 
