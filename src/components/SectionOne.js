@@ -1,9 +1,10 @@
 import React from 'react';
-import {Icon} from 'semantic-ui-react';
+import {Icon,Divider} from 'semantic-ui-react';
 
 const SectionOne = () =>(
     <section id="s1">
         <div className="content">
+            <Divider horizontal />
             <div className="row">
                 <div className="main">
                     <h3>NEW INTERVIEW</h3>
@@ -36,6 +37,7 @@ const SectionOne = () =>(
                     </div>
                 </div>
             </div>
+            <Divider horizontal />
         </div>
     </section>
 );
