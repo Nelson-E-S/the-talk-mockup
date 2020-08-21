@@ -9,3 +9,59 @@
   margin-left: 5%;
   margin-right: 5%;
 }
+div img{
+  border: 1px solid lightgrey;
+}
+.main{
+  width: 75%;
+}
+.sub{
+  width: 25%;
+}
+
+/*navbar styling*/
+header{
+  width: 100vw;
+}
+nav#bar{
+  padding: 1%;
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+nav #list ul {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav #list ul li{
+  margin-left: 5px;
+  margin-right: 15px;
+}
+#logo{
+  width: 200px;
+}
+
+/*Section One styling*/
+#s1 .content{
+  display: flex;
+  flex-flow: column nowrap;
+}
+#s1 .row{
+  display: flex;
+  flex-flow: row;
+}
+#s1 .sub{
+  display: flex;
+  flex-flow: row wrap;
+  justify-items: space-between;
+}
+#s1 .sub #author{
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content:space-between;
+}

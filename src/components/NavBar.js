@@ -1,15 +1,13 @@
 import React from 'react';
-import {Icon,Divider} from 'semantic-ui-react';
-//icons
+import {Icon} from 'semantic-ui-react';
 
 const Navbar = () =>(
     <header>
-        <nav>
-            <div id="menubox"></div>
-            <Divider />
-            <div id="nav">
+        <nav id="bar">
+            <div id="menubox"><Icon name="bars" size="large" /></div>
+            <div id="list">
                 <ul>
-                    <li><img src="#" alt="The Talks logo"/></li>
+                    <li><img src="#" alt="The Talks logo" id="logo"/></li>
                     <a href="#IntervierDirectory"><li>Interview Directory</li></a>
                     <a href="#WorldGuide"><li>World Guide</li></a>
                     <li>
@@ -20,7 +18,6 @@ const Navbar = () =>(
                 </ul>
             </div>
         </nav>
-        <Divider horizontal/>
     </header>
 )
 
