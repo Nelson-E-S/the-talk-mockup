@@ -6,6 +6,7 @@ import 'semantic-ui-css/semantic.min.css';
 import Navbar from './components/NavBar';
 import SectionOne from './components/SectionOne';
 import SectionTwo from './components/SectionTwo';
+import SectionThree from './components/SectionThree';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <SectionOne />
       <SectionTwo />
+      <SectionThree />
     </div>
   );
 }

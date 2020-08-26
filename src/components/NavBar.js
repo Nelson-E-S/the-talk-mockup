@@ -7,7 +7,7 @@ const Navbar = () =>(
             <div id="menubox"><Icon name="bars" size="large" /></div>
             <div id="list">
                 <ul>
-                    <li><img src="#" alt="The Talks logo" id="logo"/></li>
+                    <li><img src="https://the-talks.com/wp-content/themes/thetalks/img/the-talks-logo@2x.png" alt="The Talks logo" id="logo"/></li>
                     <a href="#IntervierDirectory"><li>Interview Directory</li></a>
                     <a href="#WorldGuide"><li>World Guide</li></a>
                     <li>
