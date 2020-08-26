@@ -4,7 +4,7 @@ import {Icon} from 'semantic-ui-react';
 const Navbar = () =>(
     <header>
         <nav id="bar">
-            <div id="menubox"><Icon name="bars" size="large" /></div>
+            <div id="menuBox"><Icon name="bars" size="large" /></div>
             <div id="list">
                 <ul>
                     <li><img src="https://the-talks.com/wp-content/themes/thetalks/img/the-talks-logo@2x.png" alt="The Talks logo" id="logo"/></li>

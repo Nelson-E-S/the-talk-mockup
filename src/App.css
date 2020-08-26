@@ -25,7 +25,17 @@ section{
 }
 /*navbar styling*/
 header{
+  background: white;
+  border: 1px solid white;
+  border-bottom-color: lightgrey;
   width: 100vw;
+  position: fixed;
+  top: 0;
+  left:0;
+}
+header #menuBox{
+  border: 1px solid white;
+  border-right-color: lightgrey;
 }
 nav#bar{
   padding: 1%;
@@ -51,6 +61,7 @@ nav #list ul li{
 
 /*Section One styling*/
 #s1 .content{
+  margin-top: 7%;
   display: flex;
   flex-flow: column nowrap;
 }
