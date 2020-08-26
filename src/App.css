@@ -19,7 +19,10 @@ div img{
 .sub{
   width: 25%;
 }
-
+section{
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
 /*navbar styling*/
 header{
   width: 100vw;
@@ -75,4 +78,22 @@ nav #list ul li{
 }
 #s1 .sub h4{
   margin: 0;
+}
+
+/*Section Two styling*/
+#s2 .content, #s2 .row{
+  display: flex;
+  flex-flow: column nowrap;
+}
+#s2 .reel{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+#s2 .reel img{
+  width: 325px;
+}
+#s2 .reel h5, #s2 .reel img, #s2 .reel em{
+  padding:0;
+  margin: 0;;
 }
