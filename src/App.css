@@ -57,11 +57,21 @@ nav #list ul li{
 #s1 .sub{
   display: flex;
   flex-flow: row wrap;
-  justify-items: space-between;
+  /*justify-items: space-between;*/
 }
 #s1 .sub #author{
   width: 100%;
   display: flex;
   flex-flow: row nowrap;
   justify-content:space-between;
+}
+#s1 .main img{
+  width:95%;
+}
+#s1 .sub img{
+  width: 120px;
+  margin-right: 1%;
+}
+#s1 .sub h4{
+  margin: 0;
 }

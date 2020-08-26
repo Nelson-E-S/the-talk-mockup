@@ -7,13 +7,13 @@ const SectionOne = () =>(
             <div className="row">
                 <div className="main">
                     <h4>NEW INTERVIEW</h4>
-                    <img src="#" alt="New Interview hook" id="hook" />
+                    <img src="https://the-talks.com/wp-content/uploads/2019/12/Matt-Damon-01.jpg" alt="New Interview hook" id="hook" />
                     <h3>MATT DAMON: "THESE TYPES OF MOVIES ARE GOING AWAY"</h3>
                 </div>
                 <div className="sub">
                     <h4>INTERVIEW DIRECTORY</h4>
                     <div className="flexedDisplay">
-                        {["ARCHITECTURE","ART","FASHION","FILM","FOOD","LITERATURE","MUSIC","SPORTS"].map((item,index)=><img src="#" id={`IDimg${index+1}`} key={item} alt={item} />)}
+                        {["ARCHITECTURE","ART","FASHION","FILM","FOOD","LITERATURE","MUSIC","SPORTS"].map((item,index)=><img src="https://the-talks.com/wp-content/uploads/2016/05/Alicia-Keys-01.jpg" id={`IDimg${index+1}`} key={item} alt={item} />)}
                     </div>
                 </div>
             </div>
