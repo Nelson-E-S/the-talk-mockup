@@ -73,7 +73,7 @@ nav #list ul li{
   width:100%;
 }
 #s1 .sub img{
-  width: 120px;
+  width: 200px;
   margin-right: 1%;
 }
 #s1 .sub h4{
@@ -87,11 +87,11 @@ nav #list ul li{
 }
 #s2 .reel{
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: space-between;
 }
 #s2 .reel img{
-  width: 325px;
+  width: 95%;
 }
 #s2 .reel h5, #s2 .reel img, #s2 .reel em{
   padding:0;
