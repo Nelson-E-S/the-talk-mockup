@@ -100,6 +100,9 @@ nav #list ul li{
 #s1 .sub h4{
   margin: 0;
 }
+#s1 .space-it{
+  justify-content: space-between;
+}
 
 /*Section Two styling*/
 #s2 .content, #s2 .row{
