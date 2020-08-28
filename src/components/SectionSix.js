@@ -10,7 +10,7 @@ const data = [
     <section id="s6">
     <div className="content">
         <div className="row">
-            <h4>FASHION PHOTOGRAPHERS</h4>
+            <h4>LATEST INTERVIEWS</h4>
             <div className="reel">
                 {data.map((item,index)=>(
                     <div className="picBox" key={index}>
