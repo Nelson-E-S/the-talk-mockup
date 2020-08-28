@@ -1,5 +1,5 @@
 import React from 'react';
-import {Icon} from 'semantic-ui-react';
+//import {Icon} from 'semantic-ui-react';
 
 const data = [
     ["Alicia Keys","IT CAN'T BE HELD BACK ANYMORE","https://the-talks.com/wp-content/uploads/2016/05/Alicia-Keys-01.jpg"],
