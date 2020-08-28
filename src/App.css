@@ -13,15 +13,31 @@ div img{
   border: 1px solid lightgrey;
 }
 .main{
-  width: 75%;
+  width: 67%;
   padding-right: 1%;
 }
 .sub{
-  width: 25%;
+  width: 33%;
 }
 section{
   margin-top: 1%;
   margin-bottom: 1%;
+}
+.reel{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.reel img{
+  width: 95%;
+}
+.reel h5, .reel img, .reel em{
+  padding:0;
+  margin: 0;;
+}
+.column {
+  display: flex;
+  flex-flow: column nowrap;
 }
 /*navbar styling*/
 header{
@@ -109,19 +125,23 @@ nav #list ul li{
   display: flex;
   flex-flow: column nowrap;
 }
-.reel{
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-}
-.reel img{
-  width: 95%;
-}
-.reel h5, .reel img, .reel em{
-  padding:0;
-  margin: 0;;
-}
+
 /*Section Three*/
 #s3 img{
   width: 100%;
+}
+
+/*Section Four*/
+#s4 .content{
+  display: flex;
+  flex-flow: row nowrap;
+}
+#s4 .main img{
+  width:100%;
+}
+#s4 .reel{
+  margin-top: 33px;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  height: 100%;
 }

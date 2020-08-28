@@ -8,15 +8,15 @@ const data = [
  ]
 
 const SectionFour = () =>(
-    <section id="s1">
+    <section id="s4">
         <div className="content">
-            <div className="column">
-                <div className="main">
+            <div className="column main">
+                <div>
                     <h4>NEW INTERVIEW</h4>
                     <img src="https://the-talks.com/wp-content/uploads/2019/12/Matt-Damon-01.jpg" alt="New Interview hook" id="hook" />
                     <h3>MATT DAMON: "THESE TYPES OF MOVIES ARE GOING AWAY"</h3>
                 </div>
-                <div className="sub">
+                <div>
                     <h4>INTERVIEW DIRECTORY</h4>
                     <h4>DECEMBER 11, 2019</h4>
                     <br />
@@ -26,17 +26,15 @@ const SectionFour = () =>(
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
             </div>
-            <div className="column">
-                <div className="main">
-                    <div className="reel vertical">
-                        {data.map((item,index)=>(
-                            <div className="picBox" key={index}>
-                                <img src={item[2]} alt={item[0]} />
-                                <h5>{item[0]}</h5>
-                                <em>{item[1]}</em>
-                            </div>
-                        ))}
-                    </div>
+            <div className="column sub">
+                <div className="reel vertical">
+                    {data.map((item,index)=>(
+                        <div className="picBox" key={index}>
+                            <img src={item[2]} alt={item[0]} />
+                            <h5>{item[0]}</h5>
+                            <em>{item[1]}</em>
+                        </div>
+                    ))}
                 </div>
             </div>
         </div>
