@@ -10,6 +10,8 @@ import SectionThree from './components/SectionThree';
 import SectionFour from './components/SectionFour';
 import SectionFive from './components/SectionFive';
 import SectionSix from './components/SectionSix';
+import Footer from './components/Footer';
+import Copy from './components/Copy';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <SectionFour />
       <SectionFive />
       <SectionSix />
+      <Footer />
+      <Copy />
     </div>
   );
 }
