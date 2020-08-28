@@ -61,7 +61,7 @@ nav #list ul li{
 
 /*Section One styling*/
 #s1 .content{
-  margin-top: 7%;
+  margin-top: 80px;
   display: flex;
   flex-flow: column nowrap;
 }
