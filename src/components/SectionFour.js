@@ -12,7 +12,7 @@ const SectionFour = () =>(
         <div className="content">
             <div className="column main">
                 <div>
-                    <h4>NEW INTERVIEW</h4>
+                    <h4>LAST WEEK'S INTERVIEW</h4>
                     <img src="https://the-talks.com/wp-content/uploads/2019/12/Matt-Damon-01.jpg" alt="New Interview hook" id="hook" />
                     <h3>MATT DAMON: "THESE TYPES OF MOVIES ARE GOING AWAY"</h3>
                 </div>

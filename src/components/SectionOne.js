@@ -11,7 +11,7 @@ const SectionOne = () =>(
                     <h3>MATT DAMON: "THESE TYPES OF MOVIES ARE GOING AWAY"</h3>
                 </div>
                 <div className="sub">
-                    <h4>INTERVIEW DIRECTORY</h4>
+                    <a id="InterviewDirectory"><h4>INTERVIEW DIRECTORY</h4></a>
                     <div className="flexedDisplay">
                         {["ARCHITECTURE","ART","FASHION","FILM","FOOD","LITERATURE","MUSIC","SPORTS"].map((item,index)=><img src="https://the-talks.com/wp-content/uploads/2016/05/Alicia-Keys-01.jpg" id={`IDimg${index+1}`} key={item} alt={item} />)}
                     </div>
